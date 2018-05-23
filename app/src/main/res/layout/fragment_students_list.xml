@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity$PlaceholderFragment">
 
     <android.support.v7.widget.RecyclerView
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
-        android:text="Student Name"
-        android:textColor="@android:color/black"
+        android:text="@string/student_name"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/recyclerView" />
 
@@ -56,20 +56,24 @@
         android:layout_height="31dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
-        android:text="Present"
+        android:buttonTint="@color/colorPrimary"
+        android:text="@string/present"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/recyclerView" />
 
     <TextView
-        android:id="@+id/assistance_textview"
+        android:id="@+id/attendance_textview"
         android:layout_width="wrap_content"
         android:layout_height="37dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="80dp"
-        android:text="Assistance List"
+        android:text="@string/attendance_list"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
         android:textSize="26sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,6 +90,6 @@
         app:elevation="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
 </android.support.constraint.ConstraintLayout>
