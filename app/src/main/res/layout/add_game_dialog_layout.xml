@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     android:id="@+id/linear_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+=======
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+>>>>>>> 3468cfa2f553498f8fee4b54945ef3cd8a270f9e
 
     <EditText
         android:id="@+id/dialog_edittext"
         style="@style/Widget.AppCompat.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:hint="Type Student Name"
         android:inputType="textCapWords"
         android:textAlignment="center" />
+=======
+        android:hint="@string/enter_name"
+        android:inputType="textCapWords"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimary"/>
+>>>>>>> 3468cfa2f553498f8fee4b54945ef3cd8a270f9e
 
 </LinearLayout>

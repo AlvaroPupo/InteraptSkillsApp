@@ -30,9 +30,12 @@ dependencies {
     //Butterknife
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+<<<<<<< HEAD
     //Design Library
     implementation 'com.android.support:design:27.1.1'
     //Room Database
     implementation "android.arch.persistence.room:runtime:1.0.0"
     annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+=======
+>>>>>>> 3468cfa2f553498f8fee4b54945ef3cd8a270f9e
 }
